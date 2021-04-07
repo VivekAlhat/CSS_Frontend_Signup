@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #ff7171;
+  background-image: url("images/bg-intro-desktop.png");
+  display: grid;
+  place-items: center;
+}
+
+.sign_up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign_up_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 1rem;
+}
+
+.sign_up_content h1 {
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.sign_up_content p {
+  font-size: 15px;
+}
+
+.sign_up_form {
+  padding: 1rem;
+}
+
+.alert {
+  padding: 0rem;
+  background: #4a47a3;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.alert p {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+#bold_header_text {
+  font-weight: 700;
+}
+
+.form-container {
+  padding: 1.3rem !important;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px rgba(0, 0, 0, 0.25);
+}
+
+input {
+  margin: 1.5rem 0;
+  padding: 0.7rem !important;
+}
+
+/* input::placeholder {
+  padding-left: 1rem;
+} */
+
+input:focus {
+  box-shadow: none !important;
+  border: 1px solid black !important;
+}
+
+button {
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  text-transform: uppercase;
+  background: #28a745;
+  color: ghostwhite;
+  border-radius: 5px;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  box-shadow: 0 3px #218838;
+}
+
+button:hover {
+  background: #218838;
+}
+
+button:focus {
+  outline: none;
+  border: none;
+}
+
+.pink_form_text {
+  color: #ff7171;
+  font-weight: 700;
+}
+
+.terms_text {
+  text-align: center;
+  font-size: 12px;
+  color: #a2b29f;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .sign_up_content {
+    text-align: center;
+  }
+
+  body {
+    padding: 2rem 0;
+  }
+}
